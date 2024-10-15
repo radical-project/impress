@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IMPRESS: Revolutionizing Protein Design</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4c2f6c;
+            padding: 15px 0;
+        }
+        nav a {
+            color: #fff;
+            padding: 10px 15px;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            text-transform: uppercase;
+            border-radius: 4px;
+        }
+        nav a:hover {
+            background-color: #1a1a1a;
+        }
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-image.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+        .section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-size: 2rem;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .team-photos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .team-member {
+            width: 180px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .team-member:hover {
+            transform: translateY(-10px);
+        }
+        .team-member img {
+            width: 100%;
+            border-radius: 50%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .team-member h3 {
+            font-size: 1rem;
+            margin-top: 10px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>IMPRESS: Integrated Machine-learning for PRotein Structures at Scale</h1>
+    </header>
+
+    <nav>
+        <a href="#about">Scientific Impact</a>
+        <a href="#challenges">Challenges</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#team">Team</a>
+    </nav>
+
+    <section class="hero" style="position: relative; background-image: url('images/AI-Proteint.jpg'); background-size: cover; background-position: bottom; background-repeat: no-repeat; padding: 200px; color: white; text-align: center;">
+        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
+        
+        <h1 style="position: relative; z-index: 2;">Transforming Protein Design with AI and HPC</h1>
+        <p style="position: relative; z-index: 2;">Leveraging Artificial Intelligence and High-Performance Computing to accelerate biomolecular research and protein design.</p>
+    </section>
+    
+    
+
+    <section id="about" class="section">
+        <h2>Scientific Impact</h2>
+        <p>
+            This project aims to advance protein design through the development of the IMPRESS framework, while also fostering education and capacity building by utilizing NAIRR resources. It will integrate cutting-edge tools into curricula, exposing non-computing students and researchers to innovative approaches in biological sciences. Co-PI Khare will incorporate parts of the IMPRESS pipeline into an AI-enabled protein science course for graduate students. In partnership with the Research Collaboratory for Structural Biology (RCSB PDB) at Rutgers, the project will offer a crash course on "Introduction to Protein Design using HPC," targeting underrepresented minority students in the RISE program and expanding participation in STEM fields.
+        </p>
+    </section>
+
+    <section id="challenges" class="section">
+        <h2>Challenges in AI-based Protein Design</h2>
+        <p>
+            Despite advancements in AI and computing, several challenges limit progress:
+            Determining optimal AI architectures for protein design, efficiently training and fine-tuning models using real-world experimental data, and incorporating diverse data sources such as experiments and simulations. These challenges hinder the accurate and efficient creation of novel protein structures.
+            <img src="images/protein_design.png" alt="Challenges in AI-based Protein Design" style="width: 100%; height: auto; margin-top: 20px; border-radius: 10px;"> 
+        </p>
+    </section>
+    
+
+    <section id="solutions" class="section">
+        <h2>Our Solutions</h2>
+        <p>
+            <p>
+                IMPRESS increases the impact of AI/ML in protein design by providing advanced systems that enable online coupling of AI and HPC simulations on the NAIRR platform using <a href="https://radical-cybertools.github.io/" target="_blank" style="color: inherit; text-decoration: none;">RADICAL-Cybertools</a>. 
+                We focus on real-time evaluation and improvement of models based on experimental data, resulting in high-quality protein structures.
+            </p>
+            
+        </p>
+        <img src="images/piplines.png" alt="Challenges in AI-based Protein Design" style="width: 100%; height: auto; margin-top: 20px; border-radius: 10px;"> 
+    </section>
+    
+    <section id="team" class="section">
+        <h2>Meet the CI/AI Team</h2>
+        <div class="team-photos" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; justify-items: center;">
+            <div class="team-member" style="text-align: center;">
+                <img src="images/shantenu.jpg" alt="Team Member 1" style="width: 100%; height: auto; border-radius: 10px;">
+                <h3><a href="https://radical.rutgers.edu/people/shantenu-jha" target="_blank" style="color: inherit; text-decoration: none;">Shantenu Jha</a></h3>
+            </div>
+            <div class="team-member" style="text-align: center;">
+                <img src="images/sagar.jpg" alt="Team Member 2" style="width: 100%; height: auto; border-radius: 10px;">
+                <h3><a href="https://chem.rutgers.edu/people/faculty/faculty-details/164-khare-sagar-d" target="_blank" style="color: inherit; text-decoration: none;">Sagar Khare</a></h3>
+            </div>
+            <div class="team-member" style="text-align: center;">
+                <img src="images/matteo.turilli.jpg" alt="Team Member 3" style="width: 100%; height: auto; border-radius: 10px;">
+                <h3><a href="https://radical.rutgers.edu/people/mturilli" target="_blank" style="color: inherit; text-decoration: none;">Matteo Turilli</a></h3>
+            </div>
+            <div class="team-member" style="text-align: center;">
+                <img src="images/mtitov.jpg" alt="Team Member 4" style="width: 100%; height: auto; border-radius: 10px;">
+                <h3><a href="https://www.bnl.gov/staff/mtitov" target="_blank" style="color: inherit; text-decoration: none;">Mikhail Titov</a></h3>
+            </div>
+            <div class="team-member" style="text-align: center;">
+                <img src="images/aymen.jpeg" alt="Team Member 5" style="width: 100%; height: auto; border-radius: 10px;">
+                <h3><a href="https://radical.rutgers.edu/people/aymen-alsaadi" target="_blank" style="color: inherit; text-decoration: none;">Aymen Alsaadi</a></h3>
+            <div class="team-member" style="text-align: center;">
+                <img src="images/headshot.png" alt="Team Member 7" style="width: 100%; height: auto; border-radius: 10px;">
+                <h3><a href="https://www.linkedin.com/in/jonathan-ash-7b5649182/" target="_blank" style="color: inherit; text-decoration: none;">Jonathan Ash</a></h3>
+            </div>
+            </div>
+            <div class="team-member" style="text-align: center;">
+                <img src="images/ozgur.png" alt="Team Member 6" style="width: 100%; height: auto; border-radius: 10px;">
+                <h3><a href="https://www.bnl.gov/staff/okilic" target="_blank" style="color: inherit; text-decoration: none;">Ozgur Kilic</a></h3>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+    <footer>
+        <p>© 2024 IMPRESS Project | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
